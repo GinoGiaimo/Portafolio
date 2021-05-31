@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienes raices</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="site-header inicio">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="/index.html">
+                    <img src="img/logo.svg" alt="Logotipo de bienes raices">
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div> <!-- Barra -->
+
+            <h1>Venta de casas y departamentos Exclusivos de lujo</h1>
+        </div> <!-- Contenedor -->
+    </header>
+
+    <section class="contenedor seccion">
+        <h2 class="fw-300 centrar-texto">Mas sobre nosotros</h2>
+        
+        <div class="iconos-nosotros">
+            <div class="icono">
+                <img src="img/icono1.svg" alt="Icono seguridad">
+                <h3>Seguridad</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, doloribus quae. Et, voluptatum quam, aut possimus ipsam nesciunt a doloremque quae, commodi quidem minima expedita ut excepturi! Soluta, optio suscipit?</p>
+            </div class="icono">
+
+            <div class="icono">
+                <img src="img/icono2.svg" alt="Icono mejor precio">
+                <h3>El mejor precio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, doloribus quae. Et, voluptatum quam, aut possimus ipsam nesciunt a doloremque quae, commodi quidem minima expedita ut excepturi! Soluta, optio suscipit?</p>
+            </div class="icono">
+
+            <div class="icono">
+                <img src="img/icono3.svg" alt="Icono a tiempo">
+                <h3>A tiempo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, doloribus quae. Et, voluptatum quam, aut possimus ipsam nesciunt a doloremque quae, commodi quidem minima expedita ut excepturi! Soluta, optio suscipit?</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="seccion contenedor">
+        <h2 class="fw-300 centrar-texto">Casas y Dptos en venta</h2>
+        <div class="contenedor-anuncios">
+            <div class="anuncios" >
+                <img src="img/anuncio1.jpg" alt="Casa en el lago">
+                <div class="contenido-anuncio">
+                    <h3>Casas de lujo en el lago</h3>
+                    <p>Casa en el lago con excelente vista, acabados de lujo a un buen precio</p>
+                    <p class="precio">$3.000.000</p>
+
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="icono wc">
+                            <p>3</p>
+                        </li>
+                        
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                            <p>3</p>
+                        </li>
+
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="habitaciones">
+                            <p>4</p>
+                        </li>
+                    </ul>
+                    <a href="" class="boton boton-amarillo d-block">Ver propiedad</a>
+                </div>
+            </div>
+
+            <div class="anuncios">
+                <img src="img/anuncio2.jpg" alt="Casa terminados de lujo">
+                <div class="contenido-anuncio">
+                    <h3>Casa terminados de lujo</h3>
+                    <p>Casa con diseño moderno e implementaciones de tecnologias inteligentes</p>
+                    <p class="precio">$5.000.000</p>
+
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="icono wc">
+                            <p>3</p>
+                        </li>
+                            
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                            <p>3</p>
+                        </li>
+    
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="habitaciones">
+                            <p>4</p>
+                        </li>
+                    </ul>
+                    <a href="" class="boton boton-amarillo d-block">Ver propiedad</a>
+                </div>
+            </div>
+
+            <div class="anuncios">
+                <img src="img/anuncio3.jpg" alt="Casa alberca">
+                <div class="contenido-anuncio">
+                    <h3>Casa con alberca</h3>
+                    <p>Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad</p>
+                    <p class="precio">$4.000.000</p>
+
+                    <ul class="iconos-caracteristicas">
+                        <li>
+                            <img src="img/icono_wc.svg" alt="icono wc">
+                            <p>3</p>
+                        </li>
+                        
+                        <li>
+                            <img src="img/icono_estacionamiento.svg" alt="icono estacionamiento">
+                            <p>3</p>
+                        </li>
+
+                        <li>
+                            <img src="img/icono_dormitorio.svg" alt="habitaciones">
+                            <p>4</p>
+                        </li>
+                    </ul>
+                    <a href="" class="boton boton-amarillo d-block">Ver propiedad</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ver-todas">
+            <a href="anuncios.html" class="boton boton-verde">Ver todas</a>
+        </div>
+    </main>
+
+    <section class="imagen-contacto">
+        <div class="contenedor contenido-contacto">
+            <h2>Encuentra la casa de tus sueños</h2>
+            <p>Llena el formulario de contacto y un ascesor se pondra en contracto contigo</p>
+            <a class="boton boton-amarillo" href="contacto.html">Contactanos</a>
+        </div>
+    </section>
+
+
+    <section class="">
+        <h3>Nuestro Blog</h3>
+        
+        <article>
+            <img src="img/blog1.jpg" alt="Entrada de blog">
+            <h4>Terraza en el techo de tu casa</h4>
+            <p>Escrito el 10/10/2019 por: adm</p>
+            <p>Consejos para construir una terraza en el techo de tu casa con los mejores materiales y ahorrando dinero</p>
+        </article>
+
+        <article>
+            <img src="img/blog2.jpg" alt="Entrada de blog">
+            <h4>Guia para la decoracion de tu hogar</h4>
+            <p>Escrito el 10/10/2019 por: adm</p>
+            <p>Maximisa el espacio en tu hogar con esta guia, aprende a combinar muebles y colores para darle vida a tu espacio</p>
+        </article>
+    </section>
+
+    <section>
+        <h3>Testimonial</h3>
+        <blockquote>
+            El personal se comporto de una excelente forma, muy buena atencion y la casa que me ofrecieron cumle con todas mis expectativas.
+        </blockquote>
+        <p>-Gino Giaimo</p>
+    </section>
+
+    <footer>
+        <nav class="navegacion">
+            <a href="nosotros.html">Nosotros</a>
+            <a href="anuncios.html">Anuncios</a>
+            <a href="blog.html">Blog</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        
+        <p>Todos los derechos reservados año 2019 &copy;</p>
+    </footer>
+</body>
+</html>
+
+
+---------------------------------------------------------------------------------------------
+
+css
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /* Reseteo para rems - el size default es 16px y 62.5% = 10 entonces el nuevo default es 10px */
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+/* Globales */
+img{
+    max-width: 100%;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.6rem;
+}
+
+/* Utilidades */
+.seccion{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    line-height: 2;
+}
+
+.fw-300{
+    font-weight: 300; /* Se cambia el ancho de la fuente */
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+.d-block{
+    display: block !important;
+}
+
+/* Botones */
+.boton{
+    color: white; 
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    display: inline-block;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.boton-amarillo{
+    background-color: #e08709;
+}
+
+.boton-verde{
+    background-color: #71b100;
+}
+
+.ver-todas{
+    display: flex;
+    justify-content: end;
+}
+
+/* Header */
+.site-header.inicio{
+    background: url(../img/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+.contenido-header{
+    height: 100%; /* Toma el 100% de la altura del header (que es el padre) */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenido-header h1{
+    color: white;
+    padding-bottom: 2rem;
+    max-width: 60rem;   /* Asigna como maximo ancho 600px, motivo por el cual se producira un salto de linea en el diseño */
+    line-height: 2;     /* Agrega interlineado de 2 renglones */
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between; /* manda el logo a la izq y nav a la derecha */
+    padding-top: 3rem;
+}
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;     /* 18px */
+    margin-right: 2rem;
+}
+
+.navegacion a:hover{
+    color: #27aa80
+}
+
+.navegacion a:last-of-type{
+    margin-right: 0;
+}
+
+/* iconos nosotros */
+.iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono{
+    flex-basis: calc(33.3% - 1rem);   /* Da las medidas a cada uno de los iconos calculando el 33.3% del total, menos 10px */
+    text-align: center;
+}
+
+.icono h3{
+    text-transform: uppercase;  /* Los h3 dentro de icono pasan a estar en mayusculas */
+}
+
+/* anuncios */
+.contenedor-anuncios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.anuncios{
+    flex-basis: calc(33.3% - 1rem);
+    /* border-style: solid;
+    border-color: #b5b5b5;
+    border-width: 1px; */
+    border: 1px solid #b5b5b5;
+    background-color: #f5f5f5;
+}
+
+.contenido-anuncio{
+    padding: 2rem;
+}
+
+.contenido-anuncio h3, 
+.contenido-anuncio p{
+    margin: 0;
+}
+
+.precio{
+    font-weight: 700;
+    color: #71b100;
+}
+
+/* .iconos-caracteristicas{
+    list-style: none; /* Cambia el inciso de las listas 
+    padding: 0%;
+    display: flex;
+    text-align: center;
+}
+
+.iconos-caracteristicas li{
+    flex: 1;
+}
+
+.iconos-caracteristicas p{
+    text-align: center; 
+} */
+
+.iconos-caracteristicas{
+    list-style: none; /* Cambia el inciso de las listas */
+    padding: 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconos-caracteristicas li{
+    display: flex; 
+}
+
+.iconos-caracteristicas li img{
+    margin-right: 2rem;
+}
+
+/* Contacto home */
+
+.imagen-contacto{
+    background-image: url(../img/encuentra.jpg);
+    height: 40rem;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto{
+    flex: 1;
+    color: white;
+}
+
+.contenido-contacto p{
+    font-size: 1.8rem;
+}
